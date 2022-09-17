@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@hadoop102" uuid="05b26b49-3073-4942-a857-bdfc11f3e476">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop102:10000</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@hadoop102 [2]" uuid="0a121089-f42d-439a-a651-158878dbc95a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://hadoop102:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@hadoop102 [3]" uuid="5315610f-423c-406e-bc4b-2f766843dabf">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://hadoop102:8123</jdbc-url>
+    </data-source>
+  </component>
+</project>
